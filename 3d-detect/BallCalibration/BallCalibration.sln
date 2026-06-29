@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallCalibration", "BallCalibration.vcxproj", "{ACA4BE54-C325-4C37-9A10-16BB20A2388E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1} = {BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallCalibrationDLL", "BallCalibrationDLL\BallCalibrationDLL.vcxproj", "{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Debug|x64.ActiveCfg = Debug|x64
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Debug|x64.Build.0 = Debug|x64
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Debug|x86.Build.0 = Debug|Win32
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Release|x64.ActiveCfg = Release|x64
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Release|x64.Build.0 = Release|x64
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Release|x86.ActiveCfg = Release|Win32
+		{ACA4BE54-C325-4C37-9A10-16BB20A2388E}.Release|x86.Build.0 = Release|Win32
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Debug|x64.ActiveCfg = Debug|x64
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Debug|x64.Build.0 = Debug|x64
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Debug|x86.Build.0 = Debug|Win32
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Release|x64.ActiveCfg = Release|x64
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Release|x64.Build.0 = Release|x64
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Release|x86.ActiveCfg = Release|Win32
+		{BB4999F7-3C29-4CD0-8D38-0AA0D7458DC1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5735BD21-D678-4137-86C9-C66B7EBF52A4}
+	EndGlobalSection
+EndGlobal
