@@ -1,4 +1,4 @@
-LIBRARY BallCalibrationDLL
+﻿LIBRARY BallCalibrationDLL
 
 EXPORTS
 updateCalibrationObj

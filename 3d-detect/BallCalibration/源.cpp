@@ -1,4 +1,4 @@
-#include<Windows.h>
+Ôªø#include<Windows.h>
 #include"../../czxDependence/czxTool.h"
 
 
@@ -36,7 +36,7 @@ void main()
 	}
 	//string fan_root = "D:\\download\\20241209174547-130_Grp\\";
 	//string fan_root = "D:\\code\\3D\\BallCalibration\\BallCloud\\20241209142228-680_Grp\\";
-	//string fan_root = "D:\\download\\Ωª¥Û…»“∂\\";
+	//string fan_root = "D:\\download\\‰∫§Â§ßÊâáÂè∂\\";
 	string fan_root = conf["fan_root"];
 	auto fan_path = czx_file::pathGather(fan_root, "*.pcd");
 	vector<CP> fan_clouds;
