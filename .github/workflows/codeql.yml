@@ -15,9 +15,9 @@ permissions:
 
 jobs:
   analyze:
-    name: Analyze
+    name: Analyze (${{ matrix.language }})
     runs-on: windows-latest
-    timeout-minutes: 120
+    timeout-minutes: 30
 
     strategy:
       fail-fast: false
@@ -31,16 +31,8 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: ${{ matrix.language }}
-          build-mode: manual
+          build-mode: none
           queries: security-extended
-
-      - name: Configure CMake
-        run: cmake -B build -S .
-        continue-on-error: true
-
-      - name: Build
-        run: cmake --build build --config Release
-        continue-on-error: true
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v4
