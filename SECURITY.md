@@ -14,7 +14,7 @@
 
 请 **不要** 通过公开 Issue 披露潜在安全漏洞。请通过以下方式报告：
 
-1. **首选方式**：发送加密邮件至 `security@rxsvision.com`（请替换为实际邮箱）
+1. **首选方式**：发送加密邮件至 `rain3dmetrology@gmail.com`
 2. **备用方式**：GitHub Private vulnerability reporting
 
 请在报告中包含：漏洞类型、受影响文件/模块、复现环境、最小可复现步骤、联系方式（可选）。
@@ -42,5 +42,5 @@
 
 ## 联系方式
 
-- 安全邮箱：`security@rxsvision.com`（请替换为实际邮箱）
+- 安全邮箱：`rain3dmetrology@gmail.com`
 - 组织：rxsvision（锐新视算法库重构项目）
